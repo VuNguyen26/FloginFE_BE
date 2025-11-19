@@ -2,7 +2,7 @@ package com.sgu.login.dto;
 
 import jakarta.validation.constraints.*;
 
-public class ProductDto {
+public class ProductDTO {
     @NotBlank @Size(min=3, max=100)
     public String name;
     @Positive @Max(999999999)
